@@ -1,7 +1,7 @@
 BTCIndicator
 ============
 
-Simple bitcoin price watcher for ubuntu
+Ubuntu bitcoin indicator applet
 
 
 ![screenshot](https://raw.github.com/ynh/BTCIndicator/master/screenshot.png)
@@ -16,20 +16,12 @@ $ python indicator.py &
 ### Supports
 
 - mtgox
-
 - bitstamp
-
 - futures796
-
 - btcchina
-
 - okcoin
-
 - chbtc
-
 - fxbtc
-
 - btctrade
-
 - btc100
 
