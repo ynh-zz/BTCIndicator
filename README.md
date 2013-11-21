@@ -12,3 +12,24 @@ Simple bitcoin price watcher for ubuntu
 $ python indicator.py &
 ````
 
+
+### Supports
+
+- mtgox
+
+- bitstamp
+
+- futures796
+
+- btcchina
+
+- okcoin
+
+- chbtc
+
+- fxbtc
+
+- btctrade
+
+- btc100
+
