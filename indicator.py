@@ -161,7 +161,7 @@ api = {
 class BitcoinChecker:
     def __init__(self):
         self.apimenu = {}
-        self.use = 'mtgox'
+        self.use = 'bitstamp'
         self.ind = appindicator.Indicator("bitcoin-indicator",
                                           os.path.dirname(os.path.realpath(__file__))+"/btc.png",
                                           appindicator.CATEGORY_APPLICATION_STATUS)
@@ -193,7 +193,7 @@ class BitcoinChecker:
         self.check_price()
 
     def main(self):
-        threading.Thread(target=self.check_price).start()
+	self.check_price()
         gtk.timeout_add(PING_FREQUENCY * 1000, self.check_price)
         gtk.main()
 
